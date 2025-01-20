@@ -16,48 +16,57 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: 'Eduardo Villegas',
+    name: 'Eduardo Enrique Villegas',
     position: 'Presidente',
     background:
-      'Ingeniero de Sistemas con experiencia en desarrollo de software y liderazgo de equipos. Especializado en inteligencia artificial y computación evolutiva.',
+      'Estudiante de Ing. Electrónica, apasionado por la IA y el IoT, con conocimientos en desarrollo de software backend y en busca de crear soluciones tecnológicas innovadoras',
     linkedIn: 'https://www.linkedin.com/in/eduardo-villegas',
     image:
-      'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80',
+      'https://media.licdn.com/dms/image/v2/D4E03AQE64eLfo0p5xw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718252108185?e=1741824000&v=beta&t=BvU6_tmWbYGPwLmbnvetJiF553GcR3OZ1edSEVApdf4',
   },
   {
-    name: 'Joseph Chuquipiondo',
+    name: 'Joseph Chuquipiondo Robles',
     position: 'Vice Presidente',
     background:
-      'Especialista en sistemas de información y gestión de proyectos tecnológicos. Experiencia en implementación de soluciones empresariales.',
-    linkedIn: 'https://www.linkedin.com/in/joseph-chuquipiondo',
+      'Estudiante de Ing. de Telecomunicaciones con experiencia en desarrollo de software y gestión de proyectos tecnológicos.',
+    linkedIn: 'https://www.linkedin.com/in/joseph-chuquipiondo-robles-230733256/',
     image:
-      'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80',
+      'https://i.postimg.cc/HW4XcWwB/Foto-de-Microsoft.jpg',
   },
   {
-    name: 'Carlos',
+    name: 'Carlos Ramos Ilari',
     position: 'Tesorero',
     background:
       'Experto en gestión financiera y análisis de datos. Experiencia en optimización de recursos y planificación estratégica.',
-    linkedIn: 'https://www.linkedin.com/in/carlos',
+    linkedIn: 'https://www.linkedin.com/in/carlos-ayrton-ramos-ilari-b3187b278',
     image:
       'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
   },
   {
-    name: 'Delia',
+    name: 'Delia Ibarra',
     position: 'Secretaria',
     background:
-      'Especialista en gestión administrativa y coordinación de eventos. Experiencia en organización y documentación de proyectos.',
-    linkedIn: 'https://www.linkedin.com/in/delia',
+      'Estudiante de Ingeniería de Sistemas en la UNI, apasionada por la ciberseguridad. Con experiencia en trabajo en equipo y liderazgo.',
+    linkedIn: 'https://www.linkedin.com/in/delia-elizabeth-ibarra-julcahuanca-1628a9296/',
     image:
-      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80',
+      'https://media.licdn.com/dms/image/v2/D4E03AQGj2kCrHjoM8Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727448870258?e=1741824000&v=beta&t=cgL6gqyL4c4xu9BbbcnO6hDwQiUEBEf8oGDfwRrMb6g',
   },
 ];
 
 const teamImages = [
-  'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&q=80',
+  'https://media.licdn.com/dms/image/v2/D4E22AQGRWy_dBDqv7Q/feedshare-shrink_1280/feedshare-shrink_1280/0/1727678023314?e=1739404800&v=beta&t=b2lFtf5YUVOZOlHb6weil0TpotA_cMk6fTZDMFRxGTg',
+  'https://media.licdn.com/dms/image/v2/D4E22AQGEJYWgLru4yA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727678023226?e=1739404800&v=beta&t=YJtiegBeaQPM-JABmQrq0XUbAYqUsY4so5E62OAUQQ0',
+  'https://ieee-cis-uni.github.io/assets/img/JuntaCis.png',
+  'https://i.postimg.cc/TP5D7WkG/CIS-UPC-evento.jpg',
+  'https://i.postimg.cc/gjx7Ts64/CIS-3.jpg',
+  'https://i.postimg.cc/C1ymm0sP/GrupoCIS.jpg',
+  'https://i.postimg.cc/MZ5mjVNr/FotoCIS.jpg',
+  'https://i.postimg.cc/pdzvhWKT/Curso-CIS.jpg',
+  'https://i.postimg.cc/DZgLL3jb/CursoCIS.jpg',
+  'https://i.postimg.cc/K8dF8kkw/Primera-reunicon.jpg',
+  'https://i.postimg.cc/j2dYFymw/ULTIMA-CLASE.jpg',
+  'https://i.postimg.cc/8PmtCqFS/gh-OOGLE-GROUP.jpg',
+
 ];
 
 const Team: React.FC = () => {
@@ -75,7 +84,7 @@ const Team: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Team Members Carousel */}
           <div>
-            <h3 className="text-2xl font-bold text-purple-800 mb-6">
+            <h3 className="text-2xl font-bold text-center text-purple-800 mb-6">
               Nuestro Equipo
             </h3>
             <Swiper
@@ -123,7 +132,7 @@ const Team: React.FC = () => {
 
           {/* Team Images Carousel */}
           <div>
-            <h3 className="text-2xl font-bold text-purple-800 mb-6">
+            <h3 className="text-2xl font-bold text-center text-purple-800 mb-6">
               Nuestra Visión
             </h3>
             <div className="space-y-6">
@@ -132,7 +141,7 @@ const Team: React.FC = () => {
                   modules={[Autoplay]}
                   spaceBetween={0}
                   slidesPerView={1}
-                  autoplay={{ delay: 5000 }}
+                  autoplay={{ delay: 3000 }}
                   loop={true}
                   className="team-images-carousel"
                 >
@@ -148,7 +157,7 @@ const Team: React.FC = () => {
                     </SwiperSlide>
                   ))}
                 </Swiper>
-                <div className="p-6">
+                <div className="px-6 pb-6">
                   <p className="text-gray-600">
                     En IEEE CIS UNI, nos esforzamos por ser el capítulo
                     estudiantil líder en innovación y desarrollo tecnológico.

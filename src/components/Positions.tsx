@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Calendar, Lightbulb, Building, Share2, Palette, Megaphone, Globe, Code } from 'lucide-react';
+import { Users, Calendar, Lightbulb, Building, Share2, Palette, Megaphone, Code } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
@@ -23,12 +23,13 @@ const positions: Position[] = [
     responsibilities: [
       'Gestionar relaciones con otras organizaciones',
       'Coordinar eventos de networking',
-      'Desarrollar estrategias de comunicación externa'
+      'Desarrollar estrategias de comunicación'
     ],
     benefits: [
       'Desarrollo de habilidades de comunicación',
       'Networking profesional',
-      'Experiencia en gestión de relaciones'
+      'Experiencia en gestión de relaciones',
+      'Incursión en proyectos con el equipo'
     ],
     backgroundImage: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80'
   },
@@ -39,12 +40,13 @@ const positions: Position[] = [
     responsibilities: [
       'Planificar y ejecutar eventos',
       'Gestionar presupuestos',
-      'Coordinar con proveedores y speakers'
+      'Coordinar con proveedores y speakers',
     ],
     benefits: [
       'Experiencia en gestión de proyectos',
       'Desarrollo de habilidades organizativas',
-      'Contacto con profesionales del sector'
+      'Contacto con profesionales del sector',
+      'Incursión en proyectos con el equipo'
     ],
     backgroundImage: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80'
   },
@@ -76,7 +78,7 @@ const positions: Position[] = [
     benefits: [
       'Experiencia en gestión de proyectos',
       'Desarrollo de habilidades técnicas',
-      'Trabajo con tecnologías emergentes'
+      'Trabajo con tecnologías emergentes',
     ],
     backgroundImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80'
   },
@@ -92,7 +94,8 @@ const positions: Position[] = [
     benefits: [
       'Networking con empresas',
       'Experiencia en gestión de eventos',
-      'Desarrollo de relaciones profesionales'
+      'Desarrollo de relaciones profesionales',
+      'Incursión en proyectos con el equipo'
     ],
     backgroundImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80'
   },
@@ -106,9 +109,10 @@ const positions: Position[] = [
       'Desarrollar contenido promocional'
     ],
     benefits: [
+      'Acceso a Canva Premium',
+      'Incursión en proyectos con el equipo',
       'Experiencia en marketing digital',
-      'Portfolio de campañas',
-      'Desarrollo de marca'
+      'Portfolio de campañas'
     ],
     backgroundImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80'
   },
@@ -122,9 +126,10 @@ const positions: Position[] = [
       'Analizar métricas de marketing'
     ],
     benefits: [
+      'Acceso a Canva Premium',
       'Experiencia en marketing digital',
       'Desarrollo de habilidades creativas',
-      'Manejo de herramientas de diseño'
+      'Incursión en proyectos con el equipo'
     ],
     backgroundImage: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&q=80'
   },
@@ -140,6 +145,7 @@ const positions: Position[] = [
     benefits: [
       'Portfolio publicitario',
       'Experiencia en diseño',
+      'Incursión en proyectos con el equipo',
       'Desarrollo de marca personal'
     ],
     backgroundImage: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80'
@@ -151,7 +157,8 @@ const positions: Position[] = [
     responsibilities: [
       'Mantener sitio web',
       'Implementar nuevas funcionalidades',
-      'Gestionar infraestructura digital'
+      'Gestionar infraestructura digital',
+      'Incursión en proyectos con el equipo'
     ],
     benefits: [
       'Experiencia en desarrollo web',
@@ -212,12 +219,15 @@ const PositionCard: React.FC<{ position: Position }> = ({ position }) => {
           </div>
         </div>
 
-        <button
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf38s1E55-1v8bsVmJFjD3ie8OKD_ion2ntGHynM6sm-iMOqQ/viewform?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
           onClick={scrollToRegister}
-          className="mt-8 w-full py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg font-semibold hover:opacity-90 transition-opacity"
+          className="mt-8 w-full py-3 bg-gradient-to-r text-center from-purple-500 to-blue-500 text-white rounded-lg font-semibold hover:opacity-90 transition-opacity"
         >
           Postular a este cargo
-        </button>
+        </a>
       </div>
     </div>
   );
@@ -227,7 +237,7 @@ const Positions: React.FC = () => {
   return (
     <section id="positions" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-purple-600 to-blue-400 bg-clip-text text-transparent">
+        <h2 className="text-4xl font-bold text-center mb-6 pb-2 bg-gradient-to-r from-purple-600 to-blue-400 bg-clip-text text-transparent">
           Conoce nuestros cargos
         </h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">

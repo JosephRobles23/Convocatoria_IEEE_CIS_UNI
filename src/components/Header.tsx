@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CircuitBoard, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 interface AboutModalProps {
   isOpen: boolean;
@@ -58,7 +58,12 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
-            <CircuitBoard className="text-purple-600" size={32} />
+            <div>
+              <img
+                src="https://i.postimg.cc/PqYBWw7b/LOGO-CIS-UNI-SIN-FONDO.png"
+                alt="Logo IEEE CIS UNI"
+                className="h-8 md:h-10 lg:h-12 w-auto" />
+            </div>
             <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-400 bg-clip-text text-transparent">
               IEEE CIS UNI
             </span>
@@ -115,12 +120,15 @@ const Header: React.FC = () => {
             >
               Sobre Nosotros
             </button>
-            <button
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf38s1E55-1v8bsVmJFjD3ie8OKD_ion2ntGHynM6sm-iMOqQ/viewform?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => scrollToSection('register')}
-              className="block w-full px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-400 text-white rounded-lg"
+              className="block w-full px-4 py-2 bg-gradient-to-r text-center from-purple-600 to-blue-400 text-white rounded-lg"
             >
               Inscríbete
-            </button>
+            </a>
           </div>
         )}
       </div>

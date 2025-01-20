@@ -1,5 +1,5 @@
 import React from 'react';
-import { CircuitBoard, Mail, MapPin, Phone } from 'lucide-react';
+import {Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -9,7 +9,12 @@ const Footer: React.FC = () => {
           {/* About */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <CircuitBoard className="text-purple-400" size={32} />
+              <div>
+                <img 
+                src="https://i.postimg.cc/PqYBWw7b/LOGO-CIS-UNI-SIN-FONDO.png" 
+                alt="Logo IEEE CIS UNI" 
+                className="h-8 md:h-10 lg:h-12 w-auto"/>
+              </div> 
               <span className="text-xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
                 IEEE CIS UNI
               </span>
@@ -32,7 +37,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={20} className="text-purple-400" />
-                <span className="text-gray-400">+51 123 456 789</span>
+                <span className="text-gray-400">+51 955 329 623</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-purple-400 mt-1" />
@@ -80,7 +85,7 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Síguenos</h3>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/ieeecisuni"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -96,7 +101,7 @@ const Footer: React.FC = () => {
                 LinkedIn
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/ieeecisuni/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
