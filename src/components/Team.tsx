@@ -20,7 +20,7 @@ const teamMembers: TeamMember[] = [
     position: 'Presidente',
     background:
       'Estudiante de Ing. Electrónica, apasionado por la IA y el IoT, con conocimientos en desarrollo de software backend y en busca de crear soluciones tecnológicas innovadoras',
-    linkedIn: 'https://www.linkedin.com/in/eduardo-villegas',
+    linkedIn: 'https://www.linkedin.com/in/eduardo-enrique-villegas-bojorquez/',
     image:
       'https://media.licdn.com/dms/image/v2/D4E03AQE64eLfo0p5xw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718252108185?e=1741824000&v=beta&t=BvU6_tmWbYGPwLmbnvetJiF553GcR3OZ1edSEVApdf4',
   },
@@ -31,16 +31,16 @@ const teamMembers: TeamMember[] = [
       'Estudiante de Ing. de Telecomunicaciones con experiencia en desarrollo de software y gestión de proyectos tecnológicos.',
     linkedIn: 'https://www.linkedin.com/in/joseph-chuquipiondo-robles-230733256/',
     image:
-      'https://i.postimg.cc/HW4XcWwB/Foto-de-Microsoft.jpg',
+      'https://i.postimg.cc/VvHQqwFG/Joseph-Presentacion.png',
   },
   {
     name: 'Carlos Ramos Ilari',
     position: 'Tesorero',
     background:
-      'Experto en gestión financiera y análisis de datos. Experiencia en optimización de recursos y planificación estratégica.',
+      'Estudiante de Ingeniería Electrónica con conocimientos en gestión y finanzas, y una profunda pasión por la inteligencia artificial y el desarrollo de software.',
     linkedIn: 'https://www.linkedin.com/in/carlos-ayrton-ramos-ilari-b3187b278',
     image:
-      'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
+      'https://i.postimg.cc/pThDWY6m/Carlos-edici-n.png',
   },
   {
     name: 'Delia Ibarra',
@@ -49,7 +49,7 @@ const teamMembers: TeamMember[] = [
       'Estudiante de Ingeniería de Sistemas en la UNI, apasionada por la ciberseguridad. Con experiencia en trabajo en equipo y liderazgo.',
     linkedIn: 'https://www.linkedin.com/in/delia-elizabeth-ibarra-julcahuanca-1628a9296/',
     image:
-      'https://media.licdn.com/dms/image/v2/D4E03AQGj2kCrHjoM8Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727448870258?e=1741824000&v=beta&t=cgL6gqyL4c4xu9BbbcnO6hDwQiUEBEf8oGDfwRrMb6g',
+      'https://i.postimg.cc/GhzyG5YW/Delia-edici-n-definitiva.png',
   },
 ];
 
