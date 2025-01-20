@@ -22,7 +22,7 @@ const teamMembers: TeamMember[] = [
       'Estudiante de Ing. Electrónica, apasionado por la IA y el IoT, con conocimientos en desarrollo de software backend y en busca de crear soluciones tecnológicas innovadoras',
     linkedIn: 'https://www.linkedin.com/in/eduardo-enrique-villegas-bojorquez/',
     image:
-      'https://media.licdn.com/dms/image/v2/D4E03AQE64eLfo0p5xw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718252108185?e=1741824000&v=beta&t=BvU6_tmWbYGPwLmbnvetJiF553GcR3OZ1edSEVApdf4',
+      'https://i.postimg.cc/3xbw9Mtv/Eduardo-presentacion.png',
   },
   {
     name: 'Joseph Chuquipiondo Robles',
