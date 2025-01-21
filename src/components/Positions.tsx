@@ -26,9 +26,8 @@ const positions: Position[] = [
       'Desarrollar estrategias de comunicación'
     ],
     benefits: [
-      'Desarrollo de habilidades de comunicación',
+      'Habilidades de comunicación',
       'Networking profesional',
-      'Experiencia en gestión de relaciones',
       'Incursión en proyectos con el equipo'
     ],
     backgroundImage: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80'
