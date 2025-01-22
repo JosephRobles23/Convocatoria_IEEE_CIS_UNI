@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-20  left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-[9.5%] left-[46%] md:left-1/2 transform md:-translate-x-1/2 -translate-x-[46%] animate-bounce">
         <div className="w-8 h-12 border-2 border-white rounded-full flex items-start justify-center">
           <div className="w-1 h-3 bg-white rounded-full mt-2 animate-scroll" />
         </div>
